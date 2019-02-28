@@ -1,0 +1,24 @@
+2019-01-27 23:08:27 WebappLoader[]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\_
+2019-01-27 23:08:27 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2019-01-27 23:08:27 StandardManager[]: Seeding of random number generator has been completed
+2019-01-27 23:08:27 ContextConfig[]: Added certificates -> request attribute Valve
+2019-01-27 23:08:27 StandardWrapper[:default]: Loading container servlet default
+2019-01-27 23:08:27 StandardWrapper[:invoker]: Loading container servlet invoker
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\Test
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-bean-collections.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-bean-collections.jar
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-core.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-core.jar
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils.jar
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-digester.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-digester.jar
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-fileupload.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-fileupload.jar
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-logging.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-logging.jar
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-validator.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-validator.jar
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/jakarta-oro.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\jakarta-oro.jar
+2019-01-27 23:08:28 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/struts-1.2.8.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\struts-1.2.8.jar
+2019-01-27 23:08:28 WebappLoader[/Test]: Reloading checks are enabled for this Context
+2019-01-27 23:08:28 StandardManager[/Test]: Seeding random number generator class java.security.SecureRandom
+2019-01-27 23:08:28 StandardManager[/Test]: Seeding of random number generator has been completed
+2019-01-27 23:08:30 ContextConfig[/Test]: Added certificates -> request attribute Valve
+2019-01-27 23:08:30 StandardWrapper[/Test:default]: Loading container servlet default
+2019-01-27 23:08:31 StandardWrapper[/Test:invoker]: Loading container servlet invoker
+2019-01-27 23:09:15 StandardHost[localhost]: Removing web application at context path 
+2019-01-27 23:09:15 StandardHost[localhost]: Removing web application at context path /Test

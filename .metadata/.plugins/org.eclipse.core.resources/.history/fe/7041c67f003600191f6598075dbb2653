@@ -1,0 +1,52 @@
+package com.jwt.struts.action;
+
+public class QuickSort {
+
+	public static void main(String[] args) {
+		int[] input = new int[] {13, 1, 10, 4, 2};
+		quickSort(input, 0, input.length-1);
+		
+		for(int res: input) {
+			System.out.println(res);
+		}
+	}
+
+	private static void quickSort(int[] input, int low, int high) {
+		if(low <= high) {
+			int i = low;
+			int j = high;
+
+			int pivot = (high + low)/2;
+
+			while(i <= pivot) {
+				if(input[i] < input[pivot]) {
+					i++;
+				}else {
+					break;
+				}
+			}
+
+			while(j >= pivot) {
+				if(input[j] > input[pivot]) {
+					j--;
+				}else {
+					break;
+				}
+			}
+
+			int temp = input[j];
+			input[j] = input[i];
+			input[i] = temp;
+			
+			if(i < high) {
+				quickSort(input, i + 1, high);
+			}
+			
+			if(j > low) {
+				quickSort(input, j -1, low);
+			}
+
+		}
+	}
+
+}

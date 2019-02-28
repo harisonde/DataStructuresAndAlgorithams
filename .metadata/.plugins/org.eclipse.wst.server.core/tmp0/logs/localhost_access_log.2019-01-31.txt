@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [31/Jan/2019:22:35:08 -0600] "GET /StrutsExample/EmployeeRegister.jsp HTTP/1.1" 200 795
+0:0:0:0:0:0:0:1 - - [31/Jan/2019:22:35:08 -0600] "GET /StrutsExample/aaa.gif HTTP/1.1" 404 1034
+0:0:0:0:0:0:0:1 - - [31/Jan/2019:22:35:08 -0600] "GET /favicon.ico HTTP/1.1" 404 1014
+0:0:0:0:0:0:0:1 - - [31/Jan/2019:22:35:27 -0600] "GET /StrutsExample/%3Cscript%3Ealert('test');%3C/script%3E.do HTTP/1.1" 404 990

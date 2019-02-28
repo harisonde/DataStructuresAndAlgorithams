@@ -1,0 +1,32 @@
+package com.jwt.struts.action;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ParenthesizationProblem {
+
+	static List<String> combinations = new ArrayList<>();
+
+	public static void main(String[] args) {
+
+		String[] symbol = new String[]{"T", "F", "T"};  
+		String[] operators = new String[]{"^", "&"}; 
+
+		numWays(symbol, operators, 0, true, "");
+	}
+
+	private static void numWays(String[] symbol, String[] operator,int index, boolean toBeAdded, String result) {
+		if(index > (symbol.length + operator.length) -1 ) {
+			if(result != null && result.length() > 0) {
+				combinations.add(result);
+			}
+		}
+		
+		if(index + 1 < symbol.length) {
+			numWays(symbol, operator, index+2, false, "(" + symbol[index] + "" + operator[index] + ")");
+			numWays(symbol, operator, index+2, false, symbol[index] + "" + operator[index]);
+		}
+		
+	}
+
+}

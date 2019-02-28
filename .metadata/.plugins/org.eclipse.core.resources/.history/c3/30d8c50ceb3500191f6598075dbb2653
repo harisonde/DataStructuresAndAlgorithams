@@ -1,0 +1,53 @@
+package com.jwt.struts.action;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class LargestSquare {
+	public static void main(String[] args) {
+		
+		int matrix[][] = new int[][] {{1, 1, 1}, {1, 1, 1}, {1, 1, 1}};
+		
+		int result = 0;
+		
+		for(int i = 0; i < matrix.length; i++) {
+			for(int j = 0; j < matrix[i].length; j++) {
+				result = Math.max(largestSquare(matrix, i, j, new HashMap<String, Integer>()), result);
+			}
+		}
+		
+		System.out.println("Largest Square in the matrix is -> " + result);
+		
+	}
+	
+	private static int largestSquare(int[][] matrix, int i, int j, Map<String, Integer> map) {
+		if(map.containsKey(i + "" + j)){
+			return map.get(i + "" + j);
+		}
+		
+		if(matrix.length <= i) {
+			return 0;
+		}
+		
+		if(matrix[i].length <= j) {
+			return 0;
+		}
+		
+		if(matrix[i][j] == 0) {
+			map.put(i + "" + j, 0);
+			return 0;
+		}
+			
+		int adj1 = largestSquare(matrix, i, j+1, map);
+		
+		int adj2 = largestSquare(matrix, i+1, j, map);
+		
+		int adj3 = largestSquare(matrix, i+1, j+1, map);
+		
+		int result = matrix[i][j] + Math.min(Math.min(adj1, adj2), adj3);
+		
+		map.put(i + "" + j, result);
+		return result;
+	}
+
+}

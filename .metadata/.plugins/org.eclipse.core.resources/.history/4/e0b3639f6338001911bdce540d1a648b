@@ -1,0 +1,175 @@
+package com.jwt.struts.action;
+
+public class AvlTree {
+	Node root;
+
+	static class Node{
+		int data;
+		Node left, right;
+
+		public Node(int data) {
+			this.data = data;
+		}
+	}
+
+	public static void main(String[] args) {
+		AvlTree avlTree = new AvlTree();
+		avlTree.insert(avlTree.root, 5);
+		avlTree.insert(avlTree.root, 10);
+		avlTree.insert(avlTree.root, 20);
+		
+		avlTree.root = rightRotation(avlTree.root);
+		
+		inOrderTraversal(avlTree.root);
+
+		System.out.println("Height of the AVL Tree  is - " + height(avlTree.root));
+		
+		System.out.println("Data after removing 25 ");
+		avlTree.root = avlTree.remove(avlTree.root, 25);
+		inOrderTraversal(avlTree.root);
+		
+		AvlTree avlTree1 = new AvlTree();
+		avlTree1.insert(avlTree1.root, 20);
+		avlTree1.insert(avlTree1.root, 10);
+		avlTree1.insert(avlTree1.root, 5);
+		
+		avlTree1.root = leftRotation(avlTree1.root);
+		
+		inOrderTraversal(avlTree1.root);
+		
+		AvlTree avlTree2 = new AvlTree();
+		avlTree2.insert(avlTree2.root, 20);
+		avlTree2.insert(avlTree2.root, 10);
+		avlTree2.insert(avlTree2.root, 16);
+		
+		avlTree2.root = leftRight(avlTree2.root);
+		
+		inOrderTraversal(avlTree2.root);
+		
+		AvlTree avlTree3 = new AvlTree();
+		avlTree3.insert(avlTree3.root, 10);
+		avlTree3.insert(avlTree3.root, 20);
+		avlTree3.insert(avlTree3.root, 15);
+		
+		avlTree3.root = rightLeft(avlTree3.root);
+		
+		inOrderTraversal(avlTree3.root);
+	}
+
+	public Node insert(Node node, int value) {
+		if(this.root ==  null) {
+			this.root = new Node(value);
+			return this.root;
+		}
+
+		if(node == null) {
+			return new Node(value);
+		}
+
+		if(value > node.data) {
+			node.right = insert(node.right, value);
+		}
+
+		if(value < node.data) {
+			node.left = insert(node.left, value);
+		}
+		
+		int leftHeight = height(node.left);
+		int rightHeight = height(node.right);
+		
+		if(rightHeight-leftHeight > 1) {
+			
+		}else if(leftHeight - rightHeight > 1) {
+			
+		}
+		
+		return node;
+	}
+
+	public static void inOrderTraversal(Node root) {
+		if(root == null) {
+			return;
+		}
+
+		inOrderTraversal(root.left);
+
+		System.out.println(root.data);
+
+		inOrderTraversal(root.right);
+	}
+
+	public static int height(Node root) {
+		if(root == null) {
+			return 0;
+		}
+
+		int left = height(root.left);
+
+		int right = height(root.right);
+
+		return Math.max(left,  right) + 1;
+	}
+
+	public Node remove(Node root, int value) {
+		if(root != null) {
+			if(root.data == value) {
+				Node rightNode = root.right;
+				Node leftNode = root.left;
+
+				if(rightNode != null) {
+					if(leftNode != null) {
+						Node temp = rightNode.left;
+						rightNode.left = leftNode;
+						leftNode.right = temp;
+					}
+					return rightNode;
+				}else if(leftNode != null) {
+					return leftNode;
+				}else {
+					return null;
+				}
+			}
+
+			if(root.data > value) {
+				if(root.left != null) {
+					root.left = remove(root.left, value);
+				}
+			}
+
+			if(root.data < value) {
+				if(root.right != null) {
+					root.right = remove(root.right, value);
+				}
+			}
+		}
+
+		return root;
+	}
+	
+	public static Node leftRotation(Node root) {
+		Node left = root.left;
+		Node temp = left.right;
+		left.right = root;
+		root.left = temp;
+		return left;
+	}
+	
+	public static Node rightRotation(Node root) {
+		Node right = root.right;
+		Node temp = right.left;
+		right.left = root;
+		root.right = temp;
+		return right;
+	}
+	
+	public static Node leftRight(Node root) {
+		root.left = rightRotation(root.left);
+		return leftRotation(root);
+	}
+	
+	public static Node rightLeft(Node root) {
+		root.right = leftRotation(root.right);
+		return rightRotation(root);
+	}
+
+}

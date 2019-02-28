@@ -1,0 +1,28 @@
+package com.jwt.struts.action;
+
+public class PreOrderIterative {
+	
+	 static class Node{
+		int data;
+		Node right, left;
+		
+		public Node(int data) {
+			this.data = data;
+		}
+	}
+	 
+	 public static void main(String[] args) {
+		 
+		 Node root = new Node(10);
+		 
+		 root.left = new Node(8);
+		 root.right = new Node(20);
+		 
+		 
+	 }
+	 
+	 private static void preOrderItr(Node root) {
+		 
+	 }
+
+}

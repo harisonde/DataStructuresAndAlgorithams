@@ -1,0 +1,11 @@
+127.0.0.1 - - [27/Jan/2019:23:10:16 -0600] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:11:09 -0600] "GET /StrutsExample/index.jsp HTTP/1.1" 200 1054
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:11:31 -0600] "GET /StrutsExample/%3Cscript%3Ealert('test');%3C/script%3E HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:12:04 -0600] "GET /StrutsExample/%3Cscript%3Ealert('test');%3C/script%3E HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:12:37 -0600] "GET /StrutsExample/%3Cscript%3Ealert('test');%3C/script%3E HTTP/1.1" 404 1098
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:20:03 -0600] "GET /StrutsExample/Register.do?username=test&password1=test&password2=test&email=test@email.com&multipartRequestHandler.servlet.servletContext.attribute(org.apache.struts.action.MODULE) HTTP/1.1" 500 3139
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:20:25 -0600] "GET /StrutsExample/Register.do?username=test&password1=test&password2=test&email=test@email.com&multipartRequestHandler.servlet.servletContext.attribute(org.apache.struts.action.MODULE)=java HTTP/1.1" 500 3139
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:21:16 -0600] "GET /StrutsExample/EmployeeRegister.jsp HTTP/1.1" 200 669
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:22:55 -0600] "GET /StrutsExample/Register.do?username=test&password1=test&password2=test&email=test@email.com&multipartRequestHandler.servlet.servletContext.attribute(org.apache.struts.action.MODULE)=java HTTP/1.1" 500 3139
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:24:44 -0600] "GET /StrutsExample/Register.do?username=test&password1=test&password2=test&email=test@email.com&multipartRequestHandler.servlet.servletContext.attribute=java HTTP/1.1" 500 3139
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:23:25:03 -0600] "GET /StrutsExample/EmployeeRegister.jsp HTTP/1.1" 200 669

@@ -1,0 +1,52 @@
+package com.jwt.struts.action;
+
+public class MaxSubArray {
+	int maxSum = 0;
+	int startIndex, endIndex;
+
+	public static void main(String[] args) {
+		int[] input = new int[] {15, -1, 16, 22};
+
+		MaxSubArray maxSubArray = new MaxSubArray();
+		maxSubArray.maxSubArraySum(input);
+
+		if(maxSubArray.maxSum > 0) {
+			System.out.println("Maximum Sub Array starts at index " + maxSubArray.startIndex +
+					" ends at index " + maxSubArray.endIndex);
+		}
+
+	}
+
+	public void maxSubArraySum(int[] input) {
+		int currentSum = input[0];
+		int start = 0, end=0;;
+		for(int i=1; i<input.length; i++) {
+			end = i;
+			if(currentSum + input[i] > currentSum) {
+				if(currentSum + input[i] < input[i]) {
+					currentSum = input[i];
+					start = i;
+				
+				}else {
+					currentSum = currentSum + input[i];
+				}
+			}else {
+				if(this.maxSum < currentSum) {
+					this.maxSum = currentSum;
+					this.startIndex = start;
+					this.endIndex = i;
+				}
+				currentSum = input[i];
+				start = i;
+			}
+		}
+
+		if(this.maxSum < currentSum) {
+			this.maxSum = currentSum;
+			this.startIndex = start;
+			this.endIndex = end;
+		}
+
+	}
+
+}

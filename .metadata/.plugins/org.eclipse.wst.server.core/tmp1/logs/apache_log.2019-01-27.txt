@@ -1,0 +1,11 @@
+2019-01-27 23:09:15 [org.apache.catalina.connector.warp.WarpConnector] Error accepting requests
+java.net.SocketException: socket closed
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at org.apache.catalina.connector.warp.WarpConnector.run(WarpConnector.java:590)
+	at java.lang.Thread.run(Unknown Source)
+

@@ -1,0 +1,26 @@
+2019-01-27 23:08:27 HttpConnector Opening server socket on all host IP addresses
+2019-01-27 23:08:31 HttpConnector[8080] Starting background thread
+2019-01-27 23:08:31 HttpProcessor[8080][1] Starting background thread
+2019-01-27 23:08:31 HttpProcessor[8080][0] Starting background thread
+2019-01-27 23:08:31 HttpProcessor[8080][2] Starting background thread
+2019-01-27 23:08:31 HttpProcessor[8080][3] Starting background thread
+2019-01-27 23:08:31 HttpProcessor[8080][4] Starting background thread
+2019-01-27 23:08:31 Ajp13Connector[8009] Opening server socket on all host IP addresses
+2019-01-27 23:08:31 Ajp13Connector[8009] Starting background thread
+2019-01-27 23:08:31 Ajp13Processor[8009][0] Starting background thread
+2019-01-27 23:08:31 Ajp13Processor[8009][1] Starting background thread
+2019-01-27 23:08:31 Ajp13Processor[8009][2] Starting background thread
+2019-01-27 23:08:31 Ajp13Processor[8009][3] Starting background thread
+2019-01-27 23:08:31 Ajp13Processor[8009][4] Starting background thread
+2019-01-27 23:09:10 HttpProcessor[8080][4] Stopping background thread
+2019-01-27 23:09:10 HttpProcessor[8080][3] Stopping background thread
+2019-01-27 23:09:10 HttpProcessor[8080][2] Stopping background thread
+2019-01-27 23:09:10 HttpProcessor[8080][0] Stopping background thread
+2019-01-27 23:09:10 HttpProcessor[8080][1] Stopping background thread
+2019-01-27 23:09:10 HttpConnector[8080] Stopping background thread
+2019-01-27 23:09:10 Ajp13Processor[8009][4] Stopping background thread
+2019-01-27 23:09:10 Ajp13Processor[8009][3] Stopping background thread
+2019-01-27 23:09:10 Ajp13Processor[8009][2] Stopping background thread
+2019-01-27 23:09:10 Ajp13Processor[8009][1] Stopping background thread
+2019-01-27 23:09:10 Ajp13Processor[8009][0] Stopping background thread
+2019-01-27 23:09:10 Ajp13Connector[8009] Stopping background thread

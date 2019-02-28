@@ -1,0 +1,726 @@
+2019-01-23 00:27:59 StandardContext[/Test]: Reloading this Context has started
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\Test
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-bean-collections.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-bean-collections.jar
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-core.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-core.jar
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils.jar
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-digester.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-digester.jar
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-fileupload.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-fileupload.jar
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-logging.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-logging.jar
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-validator.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-validator.jar
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/jakarta-oro.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\jakarta-oro.jar
+2019-01-23 00:28:00 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/struts-1.2.8.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\struts-1.2.8.jar
+2019-01-23 00:28:00 WebappLoader[/Test]: Reloading checks are enabled for this Context
+2019-01-23 00:28:00 StandardContext[/Test]: Exception starting filter ExcludedParameterFilter
+java.lang.ClassNotFoundException: com.jwt.struts.filter.ExcludedParameterFilter
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1406)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1254)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:252)
+	at org.apache.catalina.core.ApplicationFilterConfig.setFilterDef(ApplicationFilterConfig.java:314)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:120)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3077)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:2464)
+	at org.apache.catalina.loader.WebappContextNotifier.run(WebappLoader.java:1332)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:28:00 StandardContext[/Test]: Failed to start application Filters successfully
+2019-01-23 00:28:00 StandardWrapper[/Test:default]: Loading container servlet default
+2019-01-23 00:28:01 StandardWrapper[/Test:invoker]: Loading container servlet invoker
+2019-01-23 00:28:01 StandardManager[/Test]: Seeding random number generator class java.security.SecureRandom
+2019-01-23 00:28:01 StandardManager[/Test]: Seeding of random number generator has been completed
+2019-01-23 00:28:01 StandardContext[/Test]: Reloading this Context failed due to previous errors
+2019-01-23 00:34:19 WebappLoader[]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\_
+2019-01-23 00:34:19 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2019-01-23 00:34:19 StandardManager[]: Seeding of random number generator has been completed
+2019-01-23 00:34:19 ContextConfig[]: Added certificates -> request attribute Valve
+2019-01-23 00:34:19 StandardWrapper[:default]: Loading container servlet default
+2019-01-23 00:34:19 StandardWrapper[:invoker]: Loading container servlet invoker
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\Test
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-bean-collections.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-bean-collections.jar
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-core.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-core.jar
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils.jar
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-digester.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-digester.jar
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-fileupload.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-fileupload.jar
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-logging.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-logging.jar
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-validator.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-validator.jar
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/jakarta-oro.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\jakarta-oro.jar
+2019-01-23 00:34:21 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/struts-1.2.8.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\struts-1.2.8.jar
+2019-01-23 00:34:21 WebappLoader[/Test]: Reloading checks are enabled for this Context
+2019-01-23 00:34:21 StandardManager[/Test]: Seeding random number generator class java.security.SecureRandom
+2019-01-23 00:34:21 StandardManager[/Test]: Seeding of random number generator has been completed
+2019-01-23 00:34:24 ContextConfig[/Test]: Added certificates -> request attribute Valve
+2019-01-23 00:34:24 StandardContext[/Test]: Exception starting filter ExcludedParameterFilter
+java.lang.ClassNotFoundException: com.jwt.struts.filter.ExcludedParameterFilter
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1406)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1254)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:252)
+	at org.apache.catalina.core.ApplicationFilterConfig.setFilterDef(ApplicationFilterConfig.java:314)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:120)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3077)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3408)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1123)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:638)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1123)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:343)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:388)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:506)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:781)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:681)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:243)
+
+2019-01-23 00:34:24 StandardContext[/Test]: Context startup failed due to previous errors
+2019-01-23 00:37:05 StandardHost[localhost]: Removing web application at context path 
+2019-01-23 00:37:05 StandardHost[localhost]: Removing web application at context path /Test
+2019-01-23 00:37:05 StandardHost[localhost]: Error removing application at context path /Test
+java.lang.NullPointerException
+	at java.util.Hashtable.remove(Unknown Source)
+	at org.apache.naming.ContextBindings.unbindClassLoader(ContextBindings.java:336)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3470)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:984)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:815)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:422)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:402)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:234)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:155)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1151)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1163)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:435)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:535)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:799)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:681)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:243)
+
+2019-01-23 00:37:05 HostConfig[localhost] Error undeploying web application at context path /Test
+java.io.IOException: java.lang.NullPointerException
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:818)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:422)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:402)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:234)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:155)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1151)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1163)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:435)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:535)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:799)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:681)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:243)
+
+2019-01-23 00:37:21 WebappLoader[]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\_
+2019-01-23 00:37:21 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2019-01-23 00:37:21 StandardManager[]: Seeding of random number generator has been completed
+2019-01-23 00:37:21 ContextConfig[]: Added certificates -> request attribute Valve
+2019-01-23 00:37:21 StandardWrapper[:default]: Loading container servlet default
+2019-01-23 00:37:21 StandardWrapper[:invoker]: Loading container servlet invoker
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\Test
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-bean-collections.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-bean-collections.jar
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-core.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-core.jar
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils.jar
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-digester.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-digester.jar
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-fileupload.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-fileupload.jar
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-logging.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-logging.jar
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-validator.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-validator.jar
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/jakarta-oro.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\jakarta-oro.jar
+2019-01-23 00:37:22 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/struts-1.2.8.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\struts-1.2.8.jar
+2019-01-23 00:37:22 WebappLoader[/Test]: Reloading checks are enabled for this Context
+2019-01-23 00:37:22 StandardManager[/Test]: Seeding random number generator class java.security.SecureRandom
+2019-01-23 00:37:22 StandardManager[/Test]: Seeding of random number generator has been completed
+2019-01-23 00:37:22 ContextConfig[/Test]: Added certificates -> request attribute Valve
+2019-01-23 00:37:23 StandardContext[/Test]: Exception starting filter ExcludedParameterFilter
+java.lang.ClassNotFoundException: com.jwt.struts.filter.ExcludedParameterFilter
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1406)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1254)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:252)
+	at org.apache.catalina.core.ApplicationFilterConfig.setFilterDef(ApplicationFilterConfig.java:314)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:120)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3077)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:3408)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1123)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:638)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1123)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:343)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:388)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:506)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:781)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:681)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:243)
+
+2019-01-23 00:37:23 StandardContext[/Test]: Context startup failed due to previous errors
+2019-01-23 00:41:43 StandardHost[localhost]: Removing web application at context path 
+2019-01-23 00:41:43 StandardHost[localhost]: Removing web application at context path /Test
+2019-01-23 00:41:43 StandardHost[localhost]: Error removing application at context path /Test
+java.lang.NullPointerException
+	at java.util.Hashtable.remove(Unknown Source)
+	at org.apache.naming.ContextBindings.unbindClassLoader(ContextBindings.java:336)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:3470)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:984)
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:815)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:422)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:402)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:234)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:155)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1151)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1163)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:435)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:535)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:799)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:681)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:243)
+
+2019-01-23 00:41:43 HostConfig[localhost] Error undeploying web application at context path /Test
+java.io.IOException: java.lang.NullPointerException
+	at org.apache.catalina.core.StandardHost.remove(StandardHost.java:818)
+	at org.apache.catalina.startup.HostConfig.undeployApps(HostConfig.java:422)
+	at org.apache.catalina.startup.HostConfig.stop(HostConfig.java:402)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:234)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:155)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1151)
+	at org.apache.catalina.core.ContainerBase.stop(ContainerBase.java:1163)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:435)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:535)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:799)
+	at org.apache.catalina.startup.Catalina.execute(Catalina.java:681)
+	at org.apache.catalina.startup.Catalina.process(Catalina.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:243)
+
+2019-01-23 00:42:13 WebappLoader[]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\_
+2019-01-23 00:42:13 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2019-01-23 00:42:13 StandardManager[]: Seeding of random number generator has been completed
+2019-01-23 00:42:14 ContextConfig[]: Added certificates -> request attribute Valve
+2019-01-23 00:42:14 StandardWrapper[:default]: Loading container servlet default
+2019-01-23 00:42:14 StandardWrapper[:invoker]: Loading container servlet invoker
+2019-01-23 00:42:33 StandardHost[localhost]: Removing web application at context path 
+2019-01-23 00:42:45 WebappLoader[]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\_
+2019-01-23 00:42:45 StandardManager[]: Seeding random number generator class java.security.SecureRandom
+2019-01-23 00:42:45 StandardManager[]: Seeding of random number generator has been completed
+2019-01-23 00:42:45 ContextConfig[]: Added certificates -> request attribute Valve
+2019-01-23 00:42:45 StandardWrapper[:default]: Loading container servlet default
+2019-01-23 00:42:45 StandardWrapper[:invoker]: Loading container servlet invoker
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploying class repositories to work directory C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\work\Standalone\localhost\Test
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-bean-collections.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-bean-collections.jar
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils-core.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils-core.jar
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-beanutils.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-beanutils.jar
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-digester.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-digester.jar
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-fileupload.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-fileupload.jar
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-logging.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-logging.jar
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/commons-validator.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\commons-validator.jar
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/jakarta-oro.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\jakarta-oro.jar
+2019-01-23 00:42:45 WebappLoader[/Test]: Deploy JAR /WEB-INF/lib/struts-1.2.8.jar to C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\Test\WEB-INF\lib\struts-1.2.8.jar
+2019-01-23 00:42:45 WebappLoader[/Test]: Reloading checks are enabled for this Context
+2019-01-23 00:42:45 StandardManager[/Test]: Seeding random number generator class java.security.SecureRandom
+2019-01-23 00:42:45 StandardManager[/Test]: Seeding of random number generator has been completed
+2019-01-23 00:42:46 ContextConfig[/Test]: Added certificates -> request attribute Valve
+2019-01-23 00:42:46 StandardWrapper[/Test:default]: Loading container servlet default
+2019-01-23 00:42:46 StandardWrapper[/Test:invoker]: Loading container servlet invoker
+2019-01-23 00:43:00 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Servlet execution threw an exception
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:269)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+----- Root Cause -----
+java.lang.NoSuchMethodError: org.apache.commons.validator.Validator.setParameter(Ljava/lang/String;Ljava/lang/Object;)V
+	at org.apache.struts.validator.Resources.initValidator(Resources.java:480)
+	at org.apache.struts.validator.ValidatorForm.validate(ValidatorForm.java:104)
+	at com.jwt.struts.form.EmployeeForm.validate(EmployeeForm.java:50)
+	at org.apache.struts.action.RequestProcessor.processValidate(RequestProcessor.java:927)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:204)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:432)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:44:40 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Action[/UserAction] missing resource '<script>alert('test');</script>.do/' in key method map
+	at org.apache.struts.actions.LookupDispatchAction.getLookupMapName(LookupDispatchAction.java:240)
+	at org.apache.struts.actions.LookupDispatchAction.getMethodName(LookupDispatchAction.java:281)
+	at org.apache.struts.actions.LookupDispatchAction.execute(LookupDispatchAction.java:158)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:44:46 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Action[/UserAction] missing resource '<script>alert('test');</script>' in key method map
+	at org.apache.struts.actions.LookupDispatchAction.getLookupMapName(LookupDispatchAction.java:240)
+	at org.apache.struts.actions.LookupDispatchAction.getMethodName(LookupDispatchAction.java:281)
+	at org.apache.struts.actions.LookupDispatchAction.execute(LookupDispatchAction.java:158)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:45:01 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Action[/UserAction] missing resource '<script>alert('test');</script>' in key method map
+	at org.apache.struts.actions.LookupDispatchAction.getLookupMapName(LookupDispatchAction.java:240)
+	at org.apache.struts.actions.LookupDispatchAction.getMethodName(LookupDispatchAction.java:281)
+	at org.apache.struts.actions.LookupDispatchAction.execute(LookupDispatchAction.java:158)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:45:10 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Action[/UserAction] missing resource '<script>alert('test');</script>' in key method map
+	at org.apache.struts.actions.LookupDispatchAction.getLookupMapName(LookupDispatchAction.java:240)
+	at org.apache.struts.actions.LookupDispatchAction.getMethodName(LookupDispatchAction.java:281)
+	at org.apache.struts.actions.LookupDispatchAction.execute(LookupDispatchAction.java:158)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:45:34 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Action[/UserAction] missing resource '<script>alert('test');</script>' in key method map
+	at org.apache.struts.actions.LookupDispatchAction.getLookupMapName(LookupDispatchAction.java:240)
+	at org.apache.struts.actions.LookupDispatchAction.getMethodName(LookupDispatchAction.java:281)
+	at org.apache.struts.actions.LookupDispatchAction.execute(LookupDispatchAction.java:158)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:45:46 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Action[/UserAction] missing resource 'Incorrect' in key method map
+	at org.apache.struts.actions.LookupDispatchAction.getLookupMapName(LookupDispatchAction.java:240)
+	at org.apache.struts.actions.LookupDispatchAction.getMethodName(LookupDispatchAction.java:281)
+	at org.apache.struts.actions.LookupDispatchAction.execute(LookupDispatchAction.java:158)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:432)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:760)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:46:18 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Action[/UserAction] missing resource '<Script>alert('test')</Script>' in key method map
+	at org.apache.struts.actions.LookupDispatchAction.getLookupMapName(LookupDispatchAction.java:240)
+	at org.apache.struts.actions.LookupDispatchAction.getMethodName(LookupDispatchAction.java:281)
+	at org.apache.struts.actions.LookupDispatchAction.execute(LookupDispatchAction.java:158)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:46:36 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Action[/UserAction] missing resource '<Script>alert('test')</Script>' in key method map
+	at org.apache.struts.actions.LookupDispatchAction.getLookupMapName(LookupDispatchAction.java:240)
+	at org.apache.struts.actions.LookupDispatchAction.getMethodName(LookupDispatchAction.java:281)
+	at org.apache.struts.actions.LookupDispatchAction.execute(LookupDispatchAction.java:158)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+
+2019-01-23 00:46:57 StandardWrapperValve[action]: Servlet.service() for servlet action threw exception
+javax.servlet.ServletException: Action[/UserAction] missing resource '<Script>alert('test')</Script>' in key method map
+	at org.apache.struts.actions.LookupDispatchAction.getLookupMapName(LookupDispatchAction.java:240)
+	at org.apache.struts.actions.LookupDispatchAction.getMethodName(LookupDispatchAction.java:281)
+	at org.apache.struts.actions.LookupDispatchAction.execute(LookupDispatchAction.java:158)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:419)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:224)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doGet(ActionServlet.java:414)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:247)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at com.jwt.struts.filter.ExcludedParameterFilter.doFilter(ExcludedParameterFilter.java:63)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:213)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:243)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:190)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.CertificatesValve.invoke(CertificatesValve.java:246)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardContext.invoke(StandardContext.java:2347)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:180)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.valves.ErrorDispatcherValve.invoke(ErrorDispatcherValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:170)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:468)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:564)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:174)
+	at org.apache.catalina.core.StandardPipeline.invokeNext(StandardPipeline.java:566)
+	at org.apache.catalina.core.StandardPipeline.invoke(StandardPipeline.java:472)
+	at org.apache.catalina.core.ContainerBase.invoke(ContainerBase.java:943)
+	at org.apache.catalina.connector.http.HttpProcessor.process(HttpProcessor.java:1027)
+	at org.apache.catalina.connector.http.HttpProcessor.run(HttpProcessor.java:1125)
+	at java.lang.Thread.run(Unknown Source)
+

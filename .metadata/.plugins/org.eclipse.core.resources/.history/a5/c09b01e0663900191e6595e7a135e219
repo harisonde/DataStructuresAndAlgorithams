@@ -1,0 +1,10 @@
+package com.jwt.struts.action;
+
+public class Knapsack {
+	
+	public static void main(String[] args) {
+		int[] values = new int[] {50, 90, 50};
+		int[] weights = new int[] {10, 30, 20};
+	}
+
+}

@@ -1,0 +1,16 @@
+127.0.0.1 - - [22/Jan/2019:10:20:53 -0600] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:21:32 -0600] "GET /StutsValidationExample/index.jsp HTTP/1.1" 404 1056
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:21:50 -0600] "GET /StrutsExample/index.jsp HTTP/1.1" 200 1010
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:22:02 -0600] "POST /StrutsExample/UserAction.do HTTP/1.1" 200 1079
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:22:14 -0600] "GET /StrutsExample/UserAction.do?method=add HTTP/1.1" 400 1145
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:22:23 -0600] "GET /StrutsExample/UserAction.do?method=add HTTP/1.1" 400 1145
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:22:41 -0600] "GET /StrutsExample/UserAction.do?method=%27test%27 HTTP/1.1" 400 1145
+127.0.0.1 - - [22/Jan/2019:10:28:17 -0600] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:28:57 -0600] "GET /StutsValidationExample/index.jsp HTTP/1.1" 404 1056
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:29:24 -0600] "GET /StutsValidationExample/pages/index.jsp HTTP/1.1" 200 1063
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:29:29 -0600] "POST /StutsValidationExample/UserAction.do;jsessionid=261196CFCBE32869A998A2BFB427057E HTTP/1.1" 200 1088
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:29:34 -0600] "GET /StutsValidationExample/UserAction.do?method=%3C/h1%3E%3Cscript%3Ealert(%E2%80%98test%E2%80%99);%3C/script%3E%3Ch1%3E HTTP/1.1" 500 2466
+127.0.0.1 - - [22/Jan/2019:10:31:13 -0600] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:31:26 -0600] "GET /StutsValidationExample/UserAction.do?method=%3C/h1%3E%3Cscript%3Ealert(%E2%80%98test%E2%80%99);%3C/script%3E%3Ch1%3E HTTP/1.1" 400 1145
+127.0.0.1 - - [22/Jan/2019:10:33:41 -0600] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:10:33:48 -0600] "GET /StutsValidationExample/UserAction.do?method=%3C/h1%3E%3Cscript%3Ealert(%E2%80%98test%E2%80%99);%3C/script%3E%3Ch1%3E HTTP/1.1" 500 2466

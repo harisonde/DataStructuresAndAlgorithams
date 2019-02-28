@@ -1,0 +1,22 @@
+package com.jwt.struts.action;
+
+public class StairCaseProblem {
+	public static void main(String[] args) {
+		System.out.println(num_ways(4));
+	}
+
+	private static int num_ways(int steps) {
+		int result = 0;
+		if(steps == 0) {
+			return 1;
+		}
+		
+		result = num_ways(steps-1);
+		
+		if(steps >= 2) {
+			result += num_ways(steps-2);
+		}
+		
+		return result;		
+	}
+}

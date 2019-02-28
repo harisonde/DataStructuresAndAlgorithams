@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jwt.struts.action.PreOrderIterative&apos; to &apos;PostOrderIterative&apos;&#x0D;&#x0A;- Original project: &apos;StrutsExample&apos;&#x0D;&#x0A;- Original element: &apos;com.jwt.struts.action.PreOrderIterative&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jwt.struts.action.PostOrderIterative&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PreOrderIterative&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.jwt.struts.action{PreOrderIterative.java[PreOrderIterative" matchStrategy="1" name="PostOrderIterative" qualified="false" references="true" similarDeclarations="false" stamp="1550859838854" textual="false" version="1.0"/>
+</session>

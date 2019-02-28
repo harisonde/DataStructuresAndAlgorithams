@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3094024960.index
+\Test\src
+C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2792536771.index
+\StutsValidationExample\src
+C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3667606151.index
+\StrutsExample\src
+C:\Users\harikrishna_reddy\workspace\Struts1.1\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2926312857.index
+\Test\src
