@@ -1,5 +1,9 @@
-**/metadata
+**/.metadata
+**/.metadata/**
 **/server
+**/server/**
 **/build/**
-\.metadata
+.metadata
 Test/**
+**/Test
+**/Test/**
